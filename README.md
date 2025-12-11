@@ -1,1 +1,1 @@
-# Medical-ChatBot
+# Medical AI Assistant
