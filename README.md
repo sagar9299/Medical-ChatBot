@@ -11,31 +11,31 @@ A comprehensive medical information system that combines vector database retriev
 # Architecture
 <img width="972" height="505" alt="architecture-d" src="https://github.com/user-attachments/assets/e9b0539d-d3da-42dc-b23a-81785ca797f5" />
 # Components
-Document Processing (utils/read_preprocess.py)
+1. Document Processing (utils/read_preprocess.py)
 
 PDF text extraction and cleaning
 Medical document preprocessing
-Text Chunking (utils/chunk_data.py)
+2.Text Chunking (utils/chunk_data.py)
 
 Intelligent document segmentation
 Overlap management for context preservation
-Vector Database (utils/qdrant_db.py)
+3.Vector Database (utils/qdrant_db.py)
 
 Qdrant integration for semantic search
 Embedding storage and retrieval
-Embeddings (utils/embeddings.py)
+4.Embeddings (utils/embeddings.py)
 
 Cohere API integration for text embeddings
 Rate limiting and error handling
-LLM Agent (utils/retrieval_qa.py)
+5.LLM Agent (utils/retrieval_qa.py)
 
 Groq API integration for response generation
 Context synthesis from multiple sources
-Web Scraper (utils/tavily.py)
+6.Web Scraper (utils/tavily.py)
 
 Real-time medical information retrieval
 Trusted medical source filtering
-Critic Agent (utils/critic_agent.py)
+7.Critic Agent (utils/critic_agent.py)
 
 Response quality evaluation
 Improvement suggestions
