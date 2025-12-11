@@ -8,3 +8,5 @@ A comprehensive medical information system that combines vector database retriev
 * Real-time Web Search: Fetches current medical information from trusted sources
 * Interactive Web Interface: Modern, responsive chat interface with source citations
 * Session Management: Maintains conversation history and chat sessions
+# Architecture
+<img width="972" height="505" alt="architecture-d" src="https://github.com/user-attachments/assets/e9b0539d-d3da-42dc-b23a-81785ca797f5" />
